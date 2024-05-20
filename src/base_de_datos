@@ -1,0 +1,9 @@
+create or replace database PUNTU4;
+use PUNTU4;
+
+create or replace table notas(
+	codigo_matricula varchar(10) primary key,
+	nombre_asignatura varchar(50),
+	nota1 decimal(4,2),
+	nota2 decimal(4,2)
+);
